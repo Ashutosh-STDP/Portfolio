@@ -767,3 +767,34 @@ h3.my-profession {
     }
 
 }
+.mobile-hero{
+display:none;
+}
+
+@media (max-width:767px){
+
+.home-img{
+display:none;
+}
+
+.mobile-hero{
+display:block;
+width:350px;
+height:350px;
+margin:20px auto;
+border-radius:50%;
+object-fit:cover;
+border:1px solid var(--skin-color);
+box-shadow:0 0 20px var(--skin-color);
+animation:glow 2s infinite alternate;
+}
+
+}
+@keyframes glow{
+0%{
+box-shadow:0 0 30px var(--skin-color);
+}
+100%{
+box-shadow:0 0 30px var(--skin-color);
+}
+}
