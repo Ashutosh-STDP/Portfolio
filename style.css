@@ -778,11 +778,12 @@ display:none;
 }
 
 .mobile-hero{
-display:block;
+display:flex;
 width:350px;
 height:350px;
 margin:20px auto;
 border-radius:50%;
+justify-content: center;
 object-fit:cover;
 border:1px solid var(--skin-color);
 box-shadow:0 0 20px var(--skin-color);
