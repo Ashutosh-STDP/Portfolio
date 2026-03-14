@@ -39,3 +39,16 @@ window.addEventListener("load",() => {
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+const navLinks = document.querySelectorAll(".nav li a");
+
+navLinks.forEach(link => {
+    link.addEventListener("click", function () {
+
+        // sabse active class remove karo
+        navLinks.forEach(nav => nav.classList.remove("active"));
+
+        // jis par click hua usko active do
+        this.classList.add("active");
+    });
+});
