@@ -779,8 +779,8 @@ display:none;
 
 .mobile-hero{
 display:flex;
-width:200px;
-height:200px;
+width:300px;
+height:300px;
 margin:20px auto;
 border-radius:50%;
 justify-content: center;
